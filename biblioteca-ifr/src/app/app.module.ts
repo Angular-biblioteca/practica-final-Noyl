@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ShowcaseClickoutsideComponent } from './showcase/showcase-clickoutside/showcase-clickoutside.component';
 import { ShowcaseIfrDropdownComponent } from './showcase/showcase-ifr-dropdown/showcase-ifr-dropdown.component';
 import { ShowcaseIfrJoinPipeComponent } from './showcase/showcase-ifr-join-pipe/showcase-ifr-join-pipe.component';
+import { ShowcaseIfrLoadIframeComponent } from './showcase/showcase-ifr-load-iframe/showcase-ifr-load-iframe.component';
 import { ShowcaseIfrSpinnerComponent } from './showcase/showcase-ifr-spinner/showcase-ifr-spinner.component';
 import { ShowcaseIfrToastComponent } from './showcase/showcase-ifr-toast/showcase-ifr-toast.component';
 
@@ -18,6 +19,7 @@ import { ShowcaseIfrToastComponent } from './showcase/showcase-ifr-toast/showcas
     ShowcaseIfrToastComponent,
     ShowcaseClickoutsideComponent,
     ShowcaseIfrDropdownComponent,
+    ShowcaseIfrLoadIframeComponent,
   ],
   imports: [
     BrowserModule,
