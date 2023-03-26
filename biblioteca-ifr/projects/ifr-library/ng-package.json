@@ -3,5 +3,6 @@
   "dest": "../../dist/ifr-library",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": ["./resources/**/*"]
 }
