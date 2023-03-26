@@ -1,0 +1,34 @@
+<div>
+  <p>{{ "Modo actual: " + mode }}</p>
+
+  <button (click)="openStandard()">Standard</button>
+  <button (click)="openDelay()">Delay</button>
+  <button (click)="openInactive()">Inactive</button>
+
+  <div
+    *ngIf="mode === 'standard'"
+    class="block"
+    ifrClickOutside
+    (clickOutside)="clickOutside($event)"
+  >
+    <p>Click outside</p>
+  </div>
+  <div
+    *ngIf="mode === 'delay'"
+    class="block"
+    ifrClickOutside
+    (clickOutside)="clickOutside($event)"
+    [clickOutsideDelay]="5000"
+  >
+    <p>Click outside</p>
+  </div>
+  <div
+    *ngIf="mode === 'inactive'"
+    class="block"
+    ifrClickOutside
+    (clickOutside)="clickOutside($event)"
+    [clickOutsideEnabled]="false"
+  >
+    <p>Click outside</p>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<div>
+  <div>
+    {{ "Modo actual: " + (embedded ? "Embebido" : "No embebido") }}
+  </div>
+
+  <div>
+    <button (click)="activarSpinner()">Activar spinner</button>
+    <button (click)="cambiarModo()">Cambiar modo</button>
+  </div>
+
+  <div class="embedded">
+    <ifr-spinner *ngIf="embedded" [embedded]="true"></ifr-spinner>
+
+    <p>
+      Lorem fistrum tiene musho peligro fistro está la cosa muy malar mamaar
+      sexuarl papaar papaar a peich de la pradera. Hasta luego Lucas de la
+      pradera sexuarl ese que llega va usté muy cargadoo está la cosa muy malar
+      la caidita sexuarl fistro pupita diodenoo. La caidita amatomaa torpedo
+      pecador va usté muy cargadoo benemeritaar me cago en tus muelas ese que
+      llega hasta luego Lucas. Sexuarl condemor sexuarl te voy a borrar el
+      cerito. Está la cosa muy malar apetecan amatomaa va usté muy cargadoo. A
+      gramenawer quietooor no te digo trigo por no llamarte Rodrigor qué dise
+      usteer qué dise usteer.
+    </p>
+  </div>
+
+  <ifr-spinner *ngIf="!embedded"></ifr-spinner>
+</div>

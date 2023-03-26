@@ -1,0 +1,12 @@
+<div
+  class="ifr-spinner"
+  *ngIf="ifrSpinner.show"
+  [ngClass]="{
+    'ifr-spinner--overlay': !embedded,
+    'ifr-spinner--overlay-embedded': embedded
+  }"
+>
+  <div class="ifr-spinner__spinner">
+    <img [src]="pathImg" />
+  </div>
+</div>
