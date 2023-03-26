@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IfrLibraryModule } from 'projects/ifr-library/src/ifr-library.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ShowcaseClickoutsideComponent } from './showcase/showcase-clickoutside/showcase-clickoutside.component';
 import { ShowcaseIfrJoinPipeComponent } from './showcase/showcase-ifr-join-pipe/showcase-ifr-join-pipe.component';
 import { ShowcaseIfrSpinnerComponent } from './showcase/showcase-ifr-spinner/showcase-ifr-spinner.component';
 import { ShowcaseIfrToastComponent } from './showcase/showcase-ifr-toast/showcase-ifr-toast.component';
@@ -14,6 +15,7 @@ import { ShowcaseIfrToastComponent } from './showcase/showcase-ifr-toast/showcas
     ShowcaseIfrJoinPipeComponent,
     ShowcaseIfrSpinnerComponent,
     ShowcaseIfrToastComponent,
+    ShowcaseClickoutsideComponent,
   ],
   imports: [
     BrowserModule,

@@ -21,3 +21,7 @@ export * from './components/ifr-toast/services/ifr-toast.service';
 
 // IFR Constants
 export * from './services/ifr-constants.service'
+
+// IFR Click Outside
+export * from './directives/ifr-click-outside/ifr-click-outside.directive';
+export * from './directives/ifr-click-outside/ifr-click-outside.module';
