@@ -1,0 +1,18 @@
+<div class="ifr-toast">
+  <div [@overlayAnimation]="{value: 'visible'}"
+    class="ifr-toast__container"
+    [ngClass]="'text-light bg-' + toast.type + ' border- ' + toast.type"
+    *ngFor="let toast of toastService.toasts"
+  >
+    <div class="ifr-toast__container--title">
+      <span class="ifr-toast__container--title--message">{{
+        toast.title
+      }}</span>
+      <i class="fa fa-times ifr-toast__container--title--close-toast" (click)="closeToast(toast)"></i>
+    </div>
+
+    <div class="ifr-toast__container--content">
+      <span>{{ toast.message }}</span>
+    </div>
+  </div>
+</div>
