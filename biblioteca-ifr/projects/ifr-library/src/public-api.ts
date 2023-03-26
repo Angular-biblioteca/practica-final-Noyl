@@ -25,3 +25,10 @@ export * from './services/ifr-constants.service'
 // IFR Click Outside
 export * from './directives/ifr-click-outside/ifr-click-outside.directive';
 export * from './directives/ifr-click-outside/ifr-click-outside.module';
+
+// IFR Dropdown
+export * from './components/ifr-dropdown/ifr-dropdown.component'
+export * from './components/ifr-dropdown/ifr-dropdown.module'
+
+// Common
+export * from './common/ifr-select-item'
